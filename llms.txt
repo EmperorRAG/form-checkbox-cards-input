@@ -1,0 +1,33 @@
+# form-checkbox-cards-input
+
+> A flexible, accessible, and configuration-driven Checkbox Cards Input component for React forms, built with Radix UI and TypeScript. Designed for easy integration, theming, and high accessibility in modern web applications.
+
+This repository provides a reusable Checkbox Cards Input component for React, supporting multi-select, custom layouts, and full accessibility. It is suitable for use in any React or Next.js project and is distributed as an npm package.
+
+## Documentation
+
+- [Main README](README.md): Primary project documentation, installation, and usage guide
+- [Project Specification](spec/spec-design-checkbox-cards-input.md): Technical requirements, interfaces, and design rationale
+
+## Specifications
+
+- [Design Specification](spec/spec-design-checkbox-cards-input.md): Detailed design, requirements, and data contracts for the Checkbox Cards Input component
+
+## Configuration
+
+- [Vite Config](vite.config.ts): Build and test configuration for Vite and Storybook
+- [ESLint Config](eslint.config.js): Linting rules and project standards
+- [Prettier Config](prettier.config.mjs): Code formatting rules
+- [TypeScript Config (app)](tsconfig.app.json): TypeScript settings for application code
+- [TypeScript Config (types)](tsconfig.types.json): TypeScript settings for type generation
+- [TypeScript Config (node)](tsconfig.node.json): TypeScript settings for node scripts
+- [TypeScript Config (eslint)](tsconfig.eslint.json): TypeScript settings for linting
+
+## Examples
+
+- [Storybook Stories](src/stories/): Interactive usage and visual test cases (see Storybook integration in README)
+
+## Optional
+
+- [find-missing-exports Script](scripts/find-missing-exports.cjs): Utility to ensure all exports are synchronized
+- [Global Styles](src/globals.css): Project-wide CSS and Radix UI theme import
