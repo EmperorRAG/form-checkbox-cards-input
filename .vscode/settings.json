@@ -1,0 +1,6 @@
+{
+	"typescript.tsdk": "node_modules\\typescript\\lib",
+	"markdownlint.config": {
+		"no-hard-tabs": { "code_blocks": false, "spaces_per_tab": 4 }
+	}
+}

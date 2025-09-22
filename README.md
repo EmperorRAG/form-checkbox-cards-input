@@ -133,7 +133,7 @@ interface CheckboxCardsInputProps {
 
 ## Project Structure
 
-```
+```text
 src/
   form-checkbox-cards-input.tsx
   components/
