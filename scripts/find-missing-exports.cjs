@@ -127,7 +127,7 @@ function isExportedInIndex(symbol, filePath) {
 const missingExports = uniqueModuleExports.filter((exp) => !isExportedInIndex(exp.name, exp.filePath));
 
 if (missingExports.length) {
-	console.log('Symbols exported from modules but NOT re-exported in form-checkbox-cards-input.tsx:\n');
+	console.log('Symbols exported from modules but NOT re-exported in form-checkbox-cards-input.tsx:');
 	const grouped = {};
 	for (const exp of missingExports) {
 		if (!grouped[exp.filePath]) grouped[exp.filePath] = [];
